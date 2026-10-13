@@ -9,4 +9,6 @@ document.getElementById('form').onsubmit=e=>{
   let mensagem=`Olá! Gostaria de confirmar minha presença no casamento de Carlos e Zilma.\n\nNome: ${n}\nPresença: ${presenca}\nAcompanhantes: ${acomp}`;
   const url=`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
   window.location.href=url;
+  <a href="https://www.amazon.com.br/hz/wishlist/ls/XXOSG6KS6SG4?ref_=wl_share" target="_blank" rel="noopener noreferrer" class="botao">
+  Ver lista de presentes 🎁
 };
